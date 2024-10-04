@@ -1,0 +1,36 @@
+
+
+.business_info_style > .form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding:  0;
+    width: 150px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.business_info_style > .form-table td {
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: 1.3;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.business_info_style > table > tbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.business_info_style > table > tbody > tr {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 48%;
+}
+textarea,
+input {
+    width: 100%;
+}
